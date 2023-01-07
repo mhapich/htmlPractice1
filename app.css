@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+h1 {
+    color: purple;
+    font-family: "Georgia";
+    font-size: 70px;
+    font-weight: 50;
+    text-transform: uppercase;
+    border-top: 5px solid grey;
+}
+
+img {
+    height: 500px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #F69680;
+    color: #2e1263;
+    font-family: "Sofia";
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: #F69680;
+    color: #2e1263;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #2e1263;
+    color: #F69680;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
